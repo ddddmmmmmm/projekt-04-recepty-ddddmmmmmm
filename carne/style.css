@@ -38,3 +38,137 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+.container{
+    margin:auto;
+    background-color: violet;
+    align-content: space-around;
+
+
+   
+}
+.recept1 {
+    background-image: url(images/burger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+   
+   
+}
+
+.recept2 {
+    background-image: url(images/sushi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90px;
+}
+
+.recept3 {
+    background-image: url(images/rajcata.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90px;
+}
+.recept4 {
+    background-image: url(images/kure.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90px;
+}
+.recept5 {
+    background-image: url(images/grilovani.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90px;
+}
+
+/*
+.nazev2{
+    font-size: 1,75rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serify;
+    color: white;
+   
+
+}
+.nazev1{
+    font-size:1.75rem;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: relative;
+    top: 120px;
+    padding-left: 0.5rem;
+    
+
+}
+.komentare1{
+    position: relative;
+    bottom: 80px;
+    text-align: right;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    
+}
+.menu1{
+    position: relative;
+    bottom: 50px;
+    
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+}
+*/
+
+
+/*tablet*/
+@media (min-width: 480px) {
+ 
+   .container{
+      display: flex;  
+     flex-wrap: wrap;
+     
+    }
+
+.recept1{
+    display: flex;  
+    min-height: 250px ;
+    width: 100%;
+}
+.recept2345 {
+    display: flex; 
+    flex-wrap: wrap; 
+    min-height: 150px;
+    width: 100%;
+   
+}
+}
+
+/*PC*/
+@media (min-width: 860px) {
+ 
+      .container{
+         
+        flex-wrap: wrap;
+        
+       }
+   
+   .recept1{
+       display: flex;  
+       min-height: 400px ;
+       width: 100%;
+   }
+   .recept2345 {
+       display: flex;  
+      
+       min-height: 200px;
+      
+   }
+   }

@@ -21,6 +21,7 @@ středně široké obrazovky:
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .paticka {
@@ -37,3 +38,185 @@ body {
 /* ------------------------------- */
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
+
+
+
+.container {
+  max-width: 1300px;
+    margin: auto;
+   
+}
+
+
+.nazev1 {
+   font-weight: 800;
+   font-family: 'Raleway', sans-serify;
+   font-size: 1.75rem;
+   color: white;
+   margin: 0;
+   padding-top: 200px;
+   padding-bottom: 20px;
+   padding-left: 0.5rem;
+   
+}   
+
+.nazev {
+    font-weight: 800;
+    font-family: 'Raleway', sans-serify;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 0.5rem;
+    min-height: 90px;
+}   
+
+.menu{
+    font-size:0.8rem;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    margin: 0;
+    padding-left: 0.5rem;
+    position: relative;
+    top: 20px;
+    
+}
+
+.komentare{
+    font-size:0.8rem;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: right;
+    padding-right: 0 0.5rem 0 0 ;
+    margin: 0;
+    position: relative;
+    top: 0px;
+  
+ 
+}
+
+.recept1 {
+    background-image: url(images/salat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    border: 2px solid white;
+    
+}
+
+.recept2 {
+    background-image: url(images/chlebicek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+    border: 2px solid white;
+    order:1;
+}
+
+.recept3 {
+    background-image: url(images/tacos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+    border: 2px solid white;
+    order: 3;
+}
+.recept4 {
+    background-image: url(images/cizrna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+    border: 2px solid white;
+}
+.recept5 {
+    background-image: url(images/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+    border: 2px solid white;
+}
+
+
+
+/*tablet*/
+
+@media (min-width: 480px) {
+ 
+    .container{
+     flex-wrap: wrap;
+     display: flex;
+    }
+     .recept1  {
+         min-height: 250px ;
+         width: 100%;
+     }
+     .recept23  {
+         min-height: 150px;
+         width: 50%;
+
+     } 
+     .recept45  {
+        min-height: 150px;
+        width: 50%;
+        
+    } 
+    .nazev1{
+        font-size: 2rem;
+
+    }
+    .nazev{
+        font-size: 1.5rem;
+        padding-left: 1.25rem;
+    }
+    .menu{
+        padding-left: 1.25rem;
+    }
+    .komentare{
+        padding-right:1.25rem ;
+
+}
+    }
+  
+/*počítač*/
+
+@media (min-width: 860px) {
+ 
+    .container{
+        flex-wrap: nowrap;
+    }
+
+    .nazev1{
+        font-size: 3rem;
+
+   }
+    .nazev{
+        font-size: 1.75rem;
+        padding-left: 1.25rem;
+    }
+    .menu{
+        padding-left: 1.25rem;
+    }
+    .komentare{
+        padding-right:1.25rem ;
+    }
+    
+     .recept1  {
+         min-height: 400px ;
+        width: 33,333%;     
+     } 
+     
+     .recept23 {
+         min-height: 200px;
+         width: 33,333%;
+         
+     } 
+     .recept45  {
+        min-height: 200px;
+        width: 33,333%;
+        
+     }
+    }
