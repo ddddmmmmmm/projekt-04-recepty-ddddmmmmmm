@@ -206,17 +206,17 @@ body {
     
      .recept1  {
          min-height: 400px ;
-        width: 33,333%;     
+        width: 33.333%;     
      } 
      
      .recept23 {
-         min-height: 200px;
-         width: 33,333%;
+         min-height: 400px;
+         width: 33.333%;
          
      } 
      .recept45  {
-        min-height: 200px;
-        width: 33,333%;
+        min-height: 400px;
+        width: 33.333%;
         
      }
     }
